@@ -1,0 +1,53 @@
+body {
+    background-image: url("images/background-main.jpg");
+    background-repeat: repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* shadow below the header*/
+.box-shadow-style {
+    background-color: #3f3f3f;
+    color: white;
+    box-shadow: 1px 1px 8px 3px grey;
+}
+
+footer {
+    color: rgb(184, 184, 184);
+    text-align: center;
+    background-color: #3f3f3f;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    height: 50px;
+}
+
+/* copyright section */
+footer span {
+    width: 50%;
+    margin: auto;
+}
+
+main {
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+/* the whole content in the main tag */
+.main-content {
+    margin-top: 10px;
+}
+
+.page-header h3 {
+    border-bottom: 2px solid rgb(126, 126, 126);
+    padding: 10px;
+    color: rgb(94, 94, 94);
+}
+
+/* rounded border around some contents -> only works on "desktop" and "tablet" view modes */
+@media screen and (min-width: 576px) {
+    .window-mode {
+        border: 1px solid rgb(126, 126, 126);
+        border-radius: 5px;
+        padding-top: 10px;
+    }
+}
