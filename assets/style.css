@@ -107,6 +107,28 @@ fieldset ul {
     overflow: visible;
 }
 
+/* skills li tag animation effect -> source: https://codepen.io/martinwolf/pen/eNNdme/  */
+
+.cool-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .2s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+}
+
+/* ****************************** */
+
 /* rounded border around some contents -> only works on "desktop" and "tablet" view modes */
 @media screen and (min-width: 576px) {
     .window-mode {
