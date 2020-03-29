@@ -25,6 +25,8 @@ footer {
 footer span {
     width: 50%;
     margin: auto;
+    font-family: tahoma;
+    font-size: small;
 }
 
 main {
@@ -41,6 +43,11 @@ main {
     border-bottom: 2px solid rgb(126, 126, 126);
     padding: 10px;
     color: rgb(94, 94, 94);
+}
+
+.title-h4 {
+    border-bottom: 2px solid rgb(126, 126, 126);
+    
 }
 
 /* **** Poem section styling **** */
@@ -78,6 +85,11 @@ main {
 
 /* *****************************  */
 
+.text-justified {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .image-holder {
     padding: 0rem 0.5rem 0.5rem 0rem; 
     margin-bottom: 0.5rem;   
@@ -87,11 +99,33 @@ main {
     border-radius: 0.5rem;
 }
 
+fieldset ul {
+    border-left: 2px solid black;
+    border-radius: 1rem;
+    margin-left: 1.5rem;
+    width: 60%;
+    overflow: visible;
+}
+
 /* rounded border around some contents -> only works on "desktop" and "tablet" view modes */
 @media screen and (min-width: 576px) {
     .window-mode {
         border: 1px solid rgb(126, 126, 126);
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-top: 0.35em;
+        padding-bottom: 0.625em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        border: 2px groove (internal value);      
         border-radius: 5px;
         padding-top: 10px;
     }
+
+    /* legend {
+        border: 2px solid black;
+        border-radius: 0.5rem;
+        width: 80%;
+        text-align: center;
+    } */
 }
