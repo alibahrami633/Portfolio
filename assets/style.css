@@ -43,6 +43,13 @@ main {
     color: rgb(94, 94, 94);
 }
 
+.image-holder {
+    padding: 0rem 0.5rem 0.5rem 0rem;    
+}
+.image-holder img {
+    border-radius: 0.5rem;
+}
+
 /* rounded border around some contents -> only works on "desktop" and "tablet" view modes */
 @media screen and (min-width: 576px) {
     .window-mode {
