@@ -4,6 +4,33 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+i, a, a:focus, a:hover {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1rem;
+}
+
+.icon-anchor {
+    margin-left: 0.5rem;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+div.right-align, div.left-align a {
+    text-decoration: none;
+    color: rgb(160, 160, 160);;
+}
+
 /* shadow below the header*/
 .box-shadow-style {
     background-color: #3f3f3f;
@@ -113,7 +140,7 @@ fieldset ul {
 /* ****************************** */
 
 footer {
-    color: rgb(184, 184, 184);
+    color: rgb(160, 160, 160);
     text-align: center;
     background-color: #3f3f3f;
     margin: auto;

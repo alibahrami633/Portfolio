@@ -45,7 +45,7 @@
 <hr/>
 <br>
 
-<p align="center">
+<p>
     <span>Home</span><hr>
     <img alt="Home" src="https://github.com/alibahrami633/Portfolio/blob/master/assets/screenshots/screenshot01.png">
 </p>
