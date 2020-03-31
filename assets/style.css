@@ -171,6 +171,10 @@ footer span {
     font-size: small;
 }
 
+footer i {
+    color: white;
+}
+
 /* rounded border around some contents -> only works on "desktop" and "tablet" view modes */
 @media screen and (min-width: 576px) {
     .window-mode {
