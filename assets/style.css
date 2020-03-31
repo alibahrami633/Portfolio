@@ -26,7 +26,11 @@ main {
 
 /* the whole content in the main tag */
 .main-content {
-    margin: 1rem 1rem 0 1rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.row {
+    margin-top: 0.5rem;
 }
 
 i, a, a:focus, a:hover {
@@ -102,6 +106,18 @@ div.right-align, div.left-align a {
 	}
 
 /* *****************************  */
+
+.window-mode h5 {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+    padding-bottom: 0.5rem;
+}
+
+.porfolio-image {
+    width: 100%;
+    padding: 1rem;
+}
 
 .map {
     width: 100%;
@@ -179,15 +195,16 @@ footer i {
 @media screen and (min-width: 576px) {
     .window-mode {
         border: 1px solid rgb(126, 126, 126);
-        margin-left: 2px;
+        /* margin-left: 2px;
         margin-right: 2px;
         padding-top: 0.35em;
         padding-bottom: 0.625em;
         padding-left: 0.75em;
-        padding-right: 0.75em;
-        border: 2px groove (internal value);      
+        padding-right: 0.75em; */
+        /* border: 2px groove (internal value);       */
         border-radius: 5px;
-        padding-top: 10px;
+        padding: 1rem;
+        margin: 1rem;
     }
 
     /* slides in effect on the page header and footer - only in desktop and tablet view */
