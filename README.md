@@ -1,4 +1,4 @@
-<h2>Personal Website/Portfolio template</h2>
+<h2>Portfolio Website</h2>
 
 ## Decription
 <hr/>
