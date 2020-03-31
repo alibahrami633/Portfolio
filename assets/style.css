@@ -11,24 +11,6 @@ body {
     box-shadow: 1px 1px 8px 3px grey;
 }
 
-footer {
-    color: rgb(184, 184, 184);
-    text-align: center;
-    background-color: #3f3f3f;
-    margin: auto;
-    margin-top: 20px;
-    padding-top: 10px;
-    height: 50px;
-}
-
-/* copyright section */
-footer span {
-    width: 50%;
-    margin: auto;
-    font-family: tahoma;
-    font-size: small;
-}
-
 main {
     margin-top: 10px;
     margin-bottom: 70px;
@@ -129,6 +111,24 @@ fieldset ul {
 }
 
 /* ****************************** */
+
+footer {
+    color: rgb(184, 184, 184);
+    text-align: center;
+    background-color: #3f3f3f;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    height: 50px;
+}
+
+/* copyright section */
+footer span {
+    width: 50%;
+    margin: auto;
+    font-family: tahoma;
+    font-size: small;
+}
 
 /* rounded border around some contents -> only works on "desktop" and "tablet" view modes */
 @media screen and (min-width: 576px) {
