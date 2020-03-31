@@ -56,7 +56,8 @@ main {
 .page-header h3 {
     border-bottom: 2px solid rgb(126, 126, 126);
     padding: 10px;
-    color: rgb(94, 94, 94);
+    color: white;
+    text-shadow: 0.1rem 0.1rem #4d4d4d;
 }
 
 .title-h4 {
@@ -177,10 +178,17 @@ footer span {
         padding-top: 10px;
     }
 
-    /* legend {
-        border: 2px solid black;
-        border-radius: 0.5rem;
-        width: 80%;
-        text-align: center;
-    } */
+    /* slides in effect on the page header - only in desktop and tablet view */
+    @keyframes slideInFromLeft {
+        0% {
+          transform: translateY(-100%);
+        }
+        100% {
+          transform: translateY(0);
+        }
+    }
+
+    nav {
+        animation: 1s ease-out 0s 1 slideInFromLeft;
+    }
 }
