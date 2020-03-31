@@ -4,10 +4,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.navbar-header img {
+    border-radius: 50%;
+    width: 2.5rem;
+    padding-right: 0.5rem;
+}
+
 i, a, a:focus, a:hover {
     font-family: 'Roboto', sans-serif;
     color: black;
-    font-size: 1rem;
 }
 
 .icon-anchor {
