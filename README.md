@@ -39,19 +39,19 @@
 
 <p align="center">
     <span>Home</span><hr>
-    <img alt="Home" src="https://github.com/alibahrami633/1-homework/blob/master/assets/screenshots/index.png">
+    <img alt="Home" src="C:\Users\aliba\week08-homework\Portfolio\assets\images\screenshot01.png">
 </p>
 <hr/>
 <br/>
 <p align="center">
     <span>Portfolio</span><hr>
-    <img alt="Portfolio" src="https://github.com/alibahrami633/1-homework/blob/master/assets/screenshots/portfolio.png">
+    <img alt="Portfolio" src="C:\Users\aliba\week08-homework\Portfolio\assets\images\screenshot02.png">
 </p>
 <hr/>
 <br/>
 <p align="center">
     <span>Contact</span><hr/>
-    <img alt="Contact" src="https://github.com/alibahrami633/1-homework/blob/master/assets/screenshots/contact.jpg">
+    <img alt="Contact" src="C:\Users\aliba\week08-homework\Portfolio\assets\images\screenshot03.png">
 </p>
 <hr/>
 <br/>
