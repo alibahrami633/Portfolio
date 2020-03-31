@@ -37,6 +37,14 @@
 <hr/>
 <br>
 
+## Installation Guide
+<hr/>
+    <p>
+        This application does not have any database, therefore, simply download the whole folder and run it on a local computer or any server.      
+    </p>
+<hr/>
+<br>
+
 <p align="center">
     <span>Home</span><hr>
     <img alt="Home" src="https://github.com/alibahrami633/Portfolio/blob/master/assets/screenshots/screenshot01.png">
