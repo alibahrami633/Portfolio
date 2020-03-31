@@ -51,13 +51,13 @@
 </p>
 <hr/>
 <br/>
-<p align="center">
+<p>
     <span>Portfolio</span><hr>
     <img alt="Portfolio" src="https://github.com/alibahrami633/Portfolio/blob/master/assets/screenshots/screenshot02.png">
 </p>
 <hr/>
 <br/>
-<p align="center">
+<p>
     <span>Contact</span><hr/>
     <img alt="Contact" src="https://github.com/alibahrami633/Portfolio/blob/master/assets/screenshots/screenshot03.png">
 </p>
