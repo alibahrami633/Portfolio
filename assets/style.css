@@ -10,6 +10,25 @@ body {
     padding-right: 0.5rem;
 }
 
+.page-header h3 {
+    border-bottom: 2px solid rgb(126, 126, 126);
+    padding: 10px;
+    color: white;
+    text-shadow: 0.1rem 0.1rem #4d4d4d;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+main {
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+/* the whole content in the main tag */
+.main-content {
+    margin-top: 10px;
+}
+
 i, a, a:focus, a:hover {
     font-family: 'Roboto', sans-serif;
     color: black;
@@ -43,23 +62,6 @@ div.right-align, div.left-align a {
     box-shadow: 1px 1px 8px 3px grey;
 }
 
-main {
-    margin-top: 10px;
-    margin-bottom: 70px;
-}
-
-/* the whole content in the main tag */
-.main-content {
-    margin-top: 10px;
-}
-
-.page-header h3 {
-    border-bottom: 2px solid rgb(126, 126, 126);
-    padding: 10px;
-    color: white;
-    text-shadow: 0.1rem 0.1rem #4d4d4d;
-}
-
 .title-h4 {
     border-bottom: 2px solid rgb(126, 126, 126);
     
@@ -90,6 +92,7 @@ main {
 .name-cite:after {
 	content: ' —';
 }
+
 /* make the first letter of the poem large */
 .poem:first-letter {
 	float: left;
@@ -99,6 +102,11 @@ main {
 	}
 
 /* *****************************  */
+
+.map {
+    width: 100%;
+    padding: 0.5rem;    
+}
 
 .text-justified {
     text-align: justify;
