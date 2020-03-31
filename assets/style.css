@@ -191,21 +191,20 @@ footer i {
     color: white;
 }
 
+.window-mode {
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.window-mode a {
+    text-decoration: none;
+}
+
 /* rounded border around some contents -> only works on "desktop" and "tablet" view modes */
 @media screen and (min-width: 576px) {
-    .window-mode {
-        border: 1px solid rgb(126, 126, 126);
-        /* margin-left: 2px;
-        margin-right: 2px;
-        padding-top: 0.35em;
-        padding-bottom: 0.625em;
-        padding-left: 0.75em;
-        padding-right: 0.75em; */
-        /* border: 2px groove (internal value);       */
-        border-radius: 5px;
-        padding: 1rem;
-        margin: 1rem;
-    }
 
     /* slides in effect on the page header and footer - only in desktop and tablet view */
     @keyframes slideInFromTop {
