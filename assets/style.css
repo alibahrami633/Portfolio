@@ -1,7 +1,7 @@
 body {
-    background-image: url("images/background-main.jpg");
-    background-repeat: repeat;
-    font-family: 'Roboto', sans-serif;
+    background-color: #222629;    
+    font-family: 'Roboto', sans-serif;  
+    color: rgb(169, 173, 163);  
 }
 
 .navbar-header img {
@@ -10,18 +10,39 @@ body {
     padding-right: 0.5rem;
 }
 
+.navbar-brand {
+    color: #222629;
+}
+
+a.nav-link {
+    color: #222629;
+}
+
+.navbar-brand:hover, a.nav-link:hover {
+    color: #474B4F;
+}
+
+a.nav-link.active {
+    color: rgb(241, 255, 224);
+}
+
 .page-header h3 {
-    border-bottom: 2px solid rgb(126, 126, 126);
+    border-bottom: 1px solid #61892F;
     padding: 10px;
-    color: white;
-    text-shadow: 0.1rem 0.1rem #4d4d4d;
+    color: rgb(241, 255, 224);;
     padding-left: 0;
     margin-left: 0;
 }
 
+.box-shadow-style {
+    background-color: #61892F;
+    color: rgb(206, 252, 151);
+    box-shadow: 1px 1px 10px 3px rgb(56, 56, 56);
+}
+
 main {
     margin-top: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 70px;      
 }
 
 /* the whole content in the main tag */
@@ -33,9 +54,9 @@ main {
     margin-top: 0.5rem;
 }
 
-i, a, a:focus, a:hover {
+a, a:focus, a:hover {
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: #6B6E70;
 }
 
 .icon-anchor {
@@ -56,18 +77,11 @@ i, a, a:focus, a:hover {
 
 div.right-align, div.left-align a {
     text-decoration: none;
-    color: rgb(160, 160, 160);;
-}
-
-/* shadow below the header*/
-.box-shadow-style {
-    background-color: #3f3f3f;
-    color: white;
-    box-shadow: 1px 1px 8px 3px grey;
+    color: #222629;
 }
 
 .title-h4 {
-    border-bottom: 2px solid rgb(126, 126, 126);
+    border-bottom: 1px solid rgb(169, 173, 163);
     
 }
 
@@ -110,7 +124,7 @@ div.right-align, div.left-align a {
 .window-mode h5 {
     text-align: center;
     font-weight: bold;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(169, 173, 163);
     padding-bottom: 0.5rem;
 }
 
@@ -139,7 +153,7 @@ div.right-align, div.left-align a {
 }
 
 fieldset ul {
-    border-left: 2px solid black;
+    border-left: 2px solid #61892F;
     border-radius: 1rem;
     margin-left: 1.5rem;
     width: 60%;
@@ -149,7 +163,7 @@ fieldset ul {
 /* skills li tag animation effect -> source: https://codepen.io/martinwolf/pen/eNNdme/  */
 
 .cool-link {
-    color: #000;
+    color: rgb(128, 134, 120);
     text-decoration: none;
     cursor: pointer;
 }
@@ -159,7 +173,7 @@ fieldset ul {
     display: block;
     width: 0;
     height: 2px;
-    background: #000;
+    background: rgb(237, 247, 225);
     transition: width .2s;
 }
 
@@ -187,12 +201,12 @@ footer span {
     font-size: small;
 }
 
-footer i {
-    color: white;
+footer i, i {
+    color: rgb(241, 255, 224);
 }
 
 .window-mode {
-    border: 1px solid rgb(126, 126, 126);
+    border: 1px solid rgb(169, 173, 163);
     border-radius: 5px;
     padding: 1rem;
     margin: 1rem;
@@ -206,6 +220,8 @@ footer i {
 .project-links {
     text-align: center;
 }
+
+
 
 /* rounded border around some contents -> only works on "desktop" and "tablet" view modes */
 @media screen and (min-width: 576px) {
