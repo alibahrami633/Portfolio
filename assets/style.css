@@ -26,10 +26,14 @@ a.nav-link.active {
     color: rgb(241, 255, 224);
 }
 
+nav li {
+    text-align: center;
+}
+
 .page-header h3 {
     border-bottom: 1px solid #61892F;
     padding: 10px;
-    color: rgb(241, 255, 224);;
+    color: rgb(241, 255, 224);
     padding-left: 0;
     margin-left: 0;
 }
