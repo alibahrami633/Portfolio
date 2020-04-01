@@ -196,11 +196,15 @@ footer i {
     border-radius: 5px;
     padding: 1rem;
     margin: 1rem;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .window-mode a {
-    text-decoration: none;
+    text-decoration: none;    
+}
+
+.project-links {
+    text-align: center;
 }
 
 /* rounded border around some contents -> only works on "desktop" and "tablet" view modes */
